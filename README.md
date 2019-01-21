@@ -19,3 +19,6 @@ javac Main/*.java
 ```bash
 java Main.JavaMatic
 ```
+
+## Tests
+Package test contains JUnit5 test cases.
