@@ -1,8 +1,11 @@
-package Model;
+package test.Model;
 
-import static org.junit.jupiter.api.Assertions.*;
+import Model.Ingredient;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
+
+import static org.junit.jupiter.api.Assertions.*;
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
 class IngredientTest {
     private static Ingredient ingredient;

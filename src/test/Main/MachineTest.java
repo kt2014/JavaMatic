@@ -1,11 +1,13 @@
-package Main;
+package test.Main;
 
-import static org.junit.jupiter.api.Assertions.*;
+import Main.Machine;
+import Model.Drink;
+import Model.Ingredient;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
-import Model.Drink;
-import Model.Ingredient;
+import static org.junit.jupiter.api.Assertions.assertEquals;
+
 
 class MachineTest {
 
